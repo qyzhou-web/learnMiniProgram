@@ -1,0 +1,4 @@
+<!--pages/category/category.wxml-->
+<view>我是分类页面</view>
+<button size="mini">按钮</button>
+<view>我是谢聪</view>

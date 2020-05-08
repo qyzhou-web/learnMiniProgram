@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<view>注册一个小程序</view>
+<open-data type="userNickName"></open-data>
+<open-data type="userAvatarUrl"></open-data>
+<!-- 使用点击的方法获取用户的信息 -->
+<button size="mini"
+        open-type="getUserInfo"
+        bindgetuserinfo="getUserInfo"> 
+        获取用户授权</button>
+        <!-- 文字也可以被点击 -->
+        <view bindtap="infoClick">{{info}}</view>
