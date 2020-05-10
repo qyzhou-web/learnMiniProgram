@@ -1,2 +1,60 @@
 <!--pages/about/about.wxml-->
-<text>pages/about/about.wxml</text>
+<!-- <text>pages/about/about.wxml</text>
+<view>button的使用</view>
+<button size="mini">按钮</button>
+<button size="default">按钮</button>
+<view>------button的type-----</view>
+<button  size="mini" type="primary">按钮</button>
+<button  size="mini" type="default">按钮</button>
+<button  size="mini" type="warn">按钮</button>
+<view>---按钮的plain背景透明-----------------</view>
+<button size="mini" plain="">按钮</button>
+<button size="mini" plain="{{true}}">按钮</button>
+<button disabled="{{true}}">按钮</button>
+<button loading="{{true}}">按钮</button>
+<view>---button的hover-class-----------------</view>
+<button hover-class="style">按钮</button>
+<button hover-class="style" hover-stay-time="2000">按钮</button> -->
+<!-- <view>---button的open-type----------------</view>
+<button open-type="contact" bindcontact="handleContact">按钮</button>
+<button open-type="share">小程序分享</button>
+<button open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo">获取用户信息</button> -->
+<!-- <scroll-view  class="container1" scroll-x>
+<view wx:for="{{10}}" class="content">{{item}}</view>
+</scroll-view>
+<view>----------------scroll-y---------------------</view>
+<scroll-view  class="container2" scroll-y bindscroll="onScroll">
+<view wx:for="{{10}}" class="content2" >{{item}}</view>
+</scroll-view> -->
+<!-- <input></input>
+<input value="hahhahahahha"></input>
+<input type="number"></input>弹出的键盘只有数字
+<input type="text"></input>和默认的一致
+<input type="idcard"></input>弹出的键盘有X
+<input type="digit"></input>弹出的键盘有小数点 -->
+<!-- <input password></input>
+<input placeholder="11111"></input>
+<input bindinput="onInput"></input>
+<input bindfocus="onFocus"></input>
+<input bindblur="onBlur"></input> -->
+<!-- 1.image的基本使用 -->
+<!-- 
+  重点:
+    1.image组件可以写成单标签,也可以修成双标签
+    2.image组件默认有自己的大小: 320x240
+    3.image组件时一个行内块级元素(inline-block)
+ -->
+ <!-- <image/> -->
+ <!-- <image src="../../assets/xz.jpg"></image>-->
+ <!-- <image src='https://res.wx.qq.com/wxdoc/dist/assets/img/0.4cb08bb4.jpg'/> 
+<view wx:for="{{array}}" >
+<view>{{item.text}}</view>
+<image mode="{{item.mode}}"
+      src="{{src}}"></image> 
+
+</view> -->
+<text selectable="{{true}}">111111\n</text>
+<text>111111\n</text>
+<text space='nbsp'>Hello World\n</text>
+<text space='ensp'>Hello World\n</text>
+<text space='emsp'>Hello World\n</text>
